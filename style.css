@@ -1,0 +1,19 @@
+
+
+body {
+	margin: 0 auto;
+}
+
+p {
+	font-size: 14px;
+}
+
+.jumbotron {
+	background: url('https://images.pexels.com/photos/368260/pexels-photo-368260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+	height: 250px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #9a5893;
+	padding: 10px;
+}

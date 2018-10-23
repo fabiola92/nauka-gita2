@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kodilla Klasy pomocnicze Bootstrapa</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+		<!--Navigation-->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+    	<div class="navbar-header">
+    		<a class="navbar-brand" href="#">LOGO</a>
+    	</div>
+    	<ul class="nav navbar-nav">
+    		<li class="active"><a href="#">Home</a></li>
+    		<li><a href="#">Page 1</a></li>
+    		<li><a href="#">Page 2</a></li>
+    		<li><a href="#">Page 3</a></li>
+    	</ul>
+    	<form class="navbar-form navbar-right" role="search">
+        	<div class="form-group">
+        		<input type="text" class="form-control" placeholder="Search">
+        	</div>
+        	<button type="submit" class="btn btn-default">Submit</button>
+    	</form>
+
+	</nav>
+		<!--Jumbotron-->
+	<section class="jumbotron">
+        <div class="container">
+        	<div class="row">
+        	<div class="col-md-12"
+            		<h1>Lorem ipsum <small>dolor sit amet<small></h1>
+            		<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+            		<button class="btn btn-info">Start!</button>
+            </div>
+            </div>
+    </section>
+    
+    	<!--Text -Media Objects-->
+    	
+    <section class="media">
+        <div class="row">
+    	<div class="col-md-4">
+    		<div class="media-right">
+        			<a href="#">
+            		<a class="img-modal-group" href="..." alt="..."><img src="https://images.pexels.com/photos/938967/pexels-photo-938967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="100" height="100" alt="X" alt="X"></a>
+        			</a>
+    		</div>
+    <div class="media-body">
+        <h4 class="media-heading">Media heading</h4>
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+        	</div>
+    </div>
+    </div>
+</section>    
+    
+    	<!--Gallery-->
+    <section class="container gallery">
+    	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-11">
+				<div class="thumbnail">
+					<img src="https://images.pexels.com/photos/760975/pexels-photo-760975.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="image" class="img-responsive">
+				</div>	
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-11">
+				<div class="thumbnail">
+					<img src="https://images.pexels.com/photos/1209038/pexels-photo-1209038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="image" class="img-responsive">
+				</div>	
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-11">
+				<div class="thumbnail">
+					<img src="https://images.pexels.com/photos/1201538/pexels-photo-1201538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="image" class="img-responsive">
+				</div>	
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-11">
+				<div class="thumbnail">
+					<img src="https://images.pexels.com/photos/446280/pexels-photo-446280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="image" class="img-responsive">
+				</div>	
+			</div>
+		</div>
+		</div>
+    </section>
+    
+    <!-- New element Youtube-->
+    <div class="embed-responsive embed-responsive-16by9">
+    	<div class="row">
+    		<div class="col-md-8">
+				<iframe width="816" height="459" src="https://www.youtube.com/embed/4fddGrDV2gw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+			<!--Table-->      
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3>Lista</h3>
+					<table class="table">
+    					<thead>
+    						<tr>
+    							<th>Name</th>
+    							<th>Surname</th>
+    							<th>e-mail</th>
+    						</tr>
+						 </thead>
+    					 <tbody>
+    						<tr>
+        						<td>Jan</td>
+        						<td>Kowalski</td>
+        						<td>jan@example.com</td>
+    						</tr>
+    						<tr>
+        						<td>Sebastian</td>
+        						<td>Galecki</td>
+        						<td>sebastian@example.com</td>
+    						</tr>
+    						<tr>
+        						<td>Mateusz</td>
+        						<td>Nowak</td>
+        						<td>mati@example.com</td>
+    						</tr>
+    					</tbody>
+					  </table>
+			</div>
+		</div>
+	</div>
+			<!--Contact-->
+			
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"
+				<h3>Formularz kontaktowy</h3>
+					<form>
+			<div class="form-group">
+    			<label for="exampleInputEmai1">Email</label>
+    			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			</div>
+			<div class="form-group">
+			     <label class="control-label" for="exampleInputTopic">Topic</label>
+			     <input type="text" class="form-control" id="exampleInputTopic" placeholder="Topic">
+			</div>
+			<div class="form-group">
+			     <label class="control-label" for="exampleInputMessage">Message</label>
+			     <textarea class="form-control" rows="5" placeholder="Message..."></textarea>
+			</div>
+			    <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+					<div class="checkbox">
+    		<label>
+    		<input type="checkbox">Example checkbox
+    		</label>
+		</div>
+			</div>
+		</div>
+	</div>
+			<button type="submit" class="btn btn-info">Send</button>
+
+
+</body>
+</html>
